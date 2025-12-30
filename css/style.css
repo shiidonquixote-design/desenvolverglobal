@@ -105,3 +105,26 @@ body {
   padding: 20px 0;
   font-size: 13px;
 }
+/* DARK MODE */
+body.dark {
+  background: #0b1220;
+  color: #e5e7eb;
+}
+
+body.dark .header,
+body.dark .footer {
+  background: #020617;
+}
+
+body.dark .nav {
+  background: #020617;
+}
+
+body.dark .news-card {
+  background: #020617;
+  color: #e5e7eb;
+}
+
+body.dark .news-card p {
+  color: #cbd5f5;
+}
